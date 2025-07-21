@@ -1,5 +1,5 @@
 # What is it?
-This is a lightweit wrapper around dpdk's build system (meson) based on Cmake.
+This is a lightweight wrap around dpdk build system (meson) based on Cmake.
 
 ## How to use it?
 
