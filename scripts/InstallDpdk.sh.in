@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Variables
+BUILD_PATH=@_DPDK_SOURCE_DIR@
+INST_PATH=@CMAKE_INSTALL_PREFIX@
+
+# Install new build
+export DESTDIR=$INST_PATH
+@_DPDK_BUILD_SYSTEM@ install
